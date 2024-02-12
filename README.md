@@ -1,5 +1,6 @@
 # Naive Bayes Classifier Project 🌿📊
-- ![images](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/6d117243-ee2c-47dd-89fd-51d8debcafcf)
+- ![images](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/6d117243-ee2c-47dd-89fd-51d8debcafcf) ![1_4Bq7mbVIbF5MVfy8o53jow](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/da9bd07d-3067-4e9e-bc4e-a137edb4e1a2)
+
 
 ## Project Overview:
 This project implements a Naive Bayes classifier on the Iris dataset, including data loading, exploratory data analysis (EDA), model training, performance evaluation, and decision boundary visualization.
