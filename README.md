@@ -1,5 +1,4 @@
 # Naive Bayes Classifier Project 🌿📊
--  ![1_4Bq7mbVIbF5MVfy8o53jow](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/da9bd07d-3067-4e9e-bc4e-a137edb4e1a2)
 
 - ![images](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/6d117243-ee2c-47dd-89fd-51d8debcafcf)
 
