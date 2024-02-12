@@ -4,6 +4,7 @@ A Naive Bayes classifier is a probabilistic machine learning model that is based
 
 1. **Bayes' Theorem:**
    - The foundation of Naive Bayes, Bayes' theorem, relates the conditional and marginal probabilities of random events. For a classification task, it helps calculate the probability of a label given certain features.
+-  ![1_4Bq7mbVIbF5MVfy8o53jow](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/da9bd07d-3067-4e9e-bc4e-a137edb4e1a2)
 
 2. **Independence Assumption:**
    - The "naive" in Naive Bayes comes from the assumption that features are conditionally independent given the class label. Although this assumption may not always hold in real-world data, Naive Bayes can still perform well in practice.
