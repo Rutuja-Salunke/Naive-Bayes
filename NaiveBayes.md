@@ -1,4 +1,6 @@
 A Naive Bayes classifier is a probabilistic machine learning model that is based on Bayes' theorem. It is particularly well-suited for classification tasks, where the goal is to assign a label or category to an input based on its features. Despite its simplicity and assumptions, Naive Bayes classifiers often perform surprisingly well in various real-world scenarios.
+![Flow-chart-for-Naive-Bayesian-classification](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/f57f091d-f478-48e0-8697-f0b99f8c617a)
+
 
 ### Key Concepts:
 
