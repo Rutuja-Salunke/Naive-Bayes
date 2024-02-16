@@ -35,10 +35,14 @@
 ### 6. Decision Boundary Visualization:
 - Defines a custom function, `plot_decision_boundary`, to visualize the decision boundaries of the Naive Bayes classifier.
 - Allows for a clear understanding of how the model separates different classes in the feature space.
+- ![Screenshot 2024-02-16 201447](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/1026afc9-63c2-4fd3-afcf-71d9dc90539e)
+
+
 
 ### 7. Visualizing Pairplot:
 - Displays a Seaborn pairplot for an in-depth visualization of relationships between various features for each iris species.
 - Saves the pairplot as an image for reference.
+- ![download](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/7356a86a-5185-4d55-8df9-0619c27ee0aa)
 
 ### 8. Visualizing Decision Boundaries:
 - Visualizes decision boundaries using the first and fourth features of the Iris dataset.
