@@ -44,7 +44,8 @@
 7. **Decision Boundary Visualization:**
    - A function (`plot_decision_boundary`) is defined to plot the decision boundary of the Naive Bayes classifier.
    - The decision boundary plot includes a contour plot of the classifier's predictions and a scatter plot of the data points with class labels.
-   - 
+   - ![Screenshot 2024-02-12 100654](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/6d91a832-ae9c-4eb2-9710-f3265dad600b)
+
 
 8. **Alternative Decision Boundary Plot:**
    - An alternative decision boundary plot is provided, focusing on the first and fourth features of the Iris dataset for simplicity.
