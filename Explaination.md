@@ -13,40 +13,43 @@
   - Performance evaluation
   - Decision boundary visualization
 
-## Code Explanation:
+1. **Data Gathering:**
+   - The Iris dataset is loaded using the `load_iris` function from the `sklearn.datasets` module.
+   - The features (X) and target labels (y) are extracted from the dataset.
 
-### 1. Data Loading:
-- Utilizes the `load_iris()` function from scikit-learn to load the Iris dataset.
-
-### 2. Exploratory Data Analysis (EDA):
-- Generates a Seaborn pairplot to visually explore relationships between different features for each iris species.
-
-### 3. Data Splitting:
-- Splits the dataset into training and testing sets using `train_test_split()` for model evaluation.
-
-### 4. Naive Bayes Classifier:
-- Chooses a Gaussian Naive Bayes classifier for its simplicity and effectiveness with continuous features.
-- Trains the classifier on the training set to learn underlying patterns.
-
-### 5. Performance Evaluation:
-- Calculates model accuracy using `accuracy_score`.
-- Displays a classification report and confusion matrix for a comprehensive performance overview on the test set.
-
-### 6. Decision Boundary Visualization:
-- Defines a custom function, `plot_decision_boundary`, to visualize the decision boundaries of the Naive Bayes classifier.
-- Allows for a clear understanding of how the model separates different classes in the feature space.
-- ![Screenshot 2024-02-16 201447](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/1026afc9-63c2-4fd3-afcf-71d9dc90539e)
+2. **Exploratory Data Analysis (EDA):**
+   - A pairplot is created using seaborn to visualize the relationships between different pairs of features in the Iris dataset. The pairplot is color-coded based on the species of Iris flowers (setosa, versicolor, virginica).
+   - The pairplot provides insights into the distribution and relationships of features.
+   - ![download](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/7356a86a-5185-4d55-8df9-0619c27ee0aa)
 
 
+3. **Data Splitting:**
+   - The dataset is split into training and testing sets using the `train_test_split` function from `sklearn.model_selection`.
+   - 80% of the data is used for training, and 20% is reserved for testing.
 
-### 7. Visualizing Pairplot:
-- Displays a Seaborn pairplot for an in-depth visualization of relationships between various features for each iris species.
-- Saves the pairplot as an image for reference.
-- ![download](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/7356a86a-5185-4d55-8df9-0619c27ee0aa)
+4. **Model Training:**
+   - A Gaussian Naive Bayes classifier is employed for training using the `GaussianNB` class from `sklearn.naive_bayes`.
+   - The model is trained on the training data.
 
-### 8. Visualizing Decision Boundaries:
-- Visualizes decision boundaries using the first and fourth features of the Iris dataset.
-- Provides insights into how the model distinguishes between different classes.
+5. **Model Evaluation:**
+   - The trained model is used to predict the target labels for the test set.
+   - The accuracy of the model is calculated using the `accuracy_score` function from `sklearn.metrics`.
+   - A classification report and confusion matrix are generated using `classification_report` and `confusion_matrix` functions, respectively.
+   - The results provide insights into the model's performance on the test data.
+
+6. **Visualization:**
+   - A heatmap of the confusion matrix is created using seaborn to visually represent the classification results.
+   - Additionally, a decision boundary plot is generated to illustrate how the Naive Bayes classifier separates different classes based on feature values.
+
+7. **Decision Boundary Visualization:**
+   - A function (`plot_decision_boundary`) is defined to plot the decision boundary of the Naive Bayes classifier.
+   - The decision boundary plot includes a contour plot of the classifier's predictions and a scatter plot of the data points with class labels.
+   - 
+
+8. **Alternative Decision Boundary Plot:**
+   - An alternative decision boundary plot is provided, focusing on the first and fourth features of the Iris dataset for simplicity.
+   -  ![Screenshot 2024-02-16 201447](https://github.com/Rutuja-Salunke/Naive-Bayes/assets/102023809/1026afc9-63c2-4fd3-afcf-71d9dc90539e)
+
 
 ## Instructions:
 
